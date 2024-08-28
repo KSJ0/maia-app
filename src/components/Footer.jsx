@@ -13,13 +13,16 @@ import {
 
 const Footer = () => {
   return (
-    <div className="grid gap-4 grid-cols-2 grid-rows-2 m-7">
-      <div className="contact-box">
-        <Link to="/" className="logo">
-          <img src={logo} />
+    <div className="grid gap-4 grid-cols-2 grid-rows-2 max-w-7xl m-auto md:flex md:flex-row p-5 md:gap-14 md:p-14">
+      <div className="m-auto">
+        <Link to="/">
+          <img
+            src={logo}
+            className="w-[140px] max-w-screen h-auto mb-1 m-auto"
+          />
         </Link>
 
-        <div className="flex gap-5 items-center text-4xl mx-10">
+        <div className="flex gap-5 items-center text-4xl m-auto">
           <Link to="https://www.facebook.com/maiabakeryph">
             <FontAwesomeIcon
               icon={faSquareFacebook}
@@ -47,7 +50,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-2 m-auto">
+      <div className="flex flex-col gap-1 m-auto md:mt-3">
         <h3 className="text-xl font-semibold">Shop</h3>
 
         <Link
@@ -79,9 +82,9 @@ const Footer = () => {
         </Link>
       </div>
 
-      <div className="flex flex-col gap-2 m-auto">
+      <div className="flex flex-col gap-2 m-auto md:mt-3 md:gap-7">
         <h3 className="text-xl font-semibold">Opening Hours</h3>
-        <p>
+        <p className="text-[--other-color]">
           Mon - Fri : 7 am to 5 pm
           <br />
           Sat: 7 am to 3 pm
@@ -90,9 +93,9 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="flex flex-col gap-2 m-auto">
+      <div className="flex flex-col gap-2 m-auto md:mt-3 md:gap-7">
         <h3 className="text-xl font-semibold">Address</h3>
-        <p>
+        <p className="text-[--other-color]">
           Angeles St. Caingin Road
           <br />
           Morong, Rizal PH 1960

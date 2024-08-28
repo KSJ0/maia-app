@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-5 text-[--text-color]">
+    <div className="flex flex-col gap-5 text-[--text-color] md:gap-8">
       <Header />
       <Hero />
       <Categories />

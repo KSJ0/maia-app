@@ -8,7 +8,7 @@ import cakes from "../assets/cakes/blueberry cheesecake2.jpg";
 
 const Categories = () => {
   return (
-    <div className="flex flex-col gap-10 mt-10 md:flex">
+    <div className="flex flex-col gap-10 mt-10 md:flex max-w-7xl m-auto">
       <div className="text-center flex flex-col gap-5">
         <h3 className="text-xl text-[--main-color]">Categories</h3>
         <h2 className="font-extrabold text-4xl">Our Categories Menu</h2>

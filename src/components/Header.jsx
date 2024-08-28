@@ -14,7 +14,7 @@ import {
 const Header = () => {
   return (
     <div>
-      <header className="flex justify-between max-w-5xl m-auto font-mono px-5 text-[--text-color]">
+      <header className="flex justify-between max-w-5xl m-auto font-mono px-5 text-[--text-color] fixed top-0 left-0 right-0 backdrop-opacity-20 backdrop-invert bg-[--bg-color]/30 md:rounded-xl md:mt-2">
         <Link to="/" className="">
           <img src={Logo} className="w-28 h-auto" />
         </Link>
