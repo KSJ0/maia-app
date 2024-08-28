@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color: #c78b85;
+  --text-color: #473229;
+  --bg-color: #fffefb;
+  --rr-color: #ffa50a;
+  --other-color: #95949a;
+  --bb-color: #fff2de;
+
+  /* --big-font: 4.4rem;
+  --h2-font: 3rem;
+  --h4-font: 1.4rem;
+  --p-font: 1rem; */
+}
+
+.cus-bttn {
+  background-color: slategrey;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: var(--bg-color);
+  background-color: var(--main-color);
+  font-size: 1.3rem;
+}
+
+.cus-bttn:hover {
+  transform: scale(1.5);
+}
+
+.cus-img {
+  width: 190px;
+  height: 190px;
+  border-radius: 12px;
+  margin: auto;
+}
