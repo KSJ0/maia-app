@@ -6,6 +6,7 @@ const Shop = () => {
   return (
     <>
       <Header />
+      <h1 className="content-center h-screen m-auto ml-48">AWAVYU HEHE</h1>
     </>
   );
 };
