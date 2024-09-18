@@ -6,6 +6,7 @@ import Categories from "../components/Categories";
 import History from "../components/History";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
+import PopularMenu from "../components/PopularMenu";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Hero />
       <Categories />
       <History />
+      <PopularMenu />
       <Testimonials />
       <Footer />
     </div>

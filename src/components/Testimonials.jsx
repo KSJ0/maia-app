@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
-import user from "../assets/MAIA BAKERY 3.png";
+import user from "/images/MAIA BAKERY 3.png";
 
 const Testimonials = () => {
   return (

@@ -1,14 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
-import cookies from "../assets/cookies/cookies.jpg";
-import brownies from "../assets/brownies/brownies 5.jpg";
-import loafs from "../assets/loafBread/bananaloaf_plain_6in.jpg";
-import cakes from "../assets/cakes/blueberry cheesecake2.jpg";
+import cookies from "/images/cookies/cookies.jpg";
+import brownies from "/images/brownies/brownies 5.jpg";
+import loafs from "/images/loafBread/bananaloaf_plain_6in.jpg";
+import cakes from "/images/cakes/blueberry cheesecake2.jpg";
 
 const Categories = () => {
   return (
-    <div className="flex flex-col gap-10 mt-10 md:flex max-w-7xl m-auto">
+    <div className="flex flex-col gap-10 md:flex max-w-7xl m-auto">
       <div className="text-center flex flex-col gap-5">
         <h3 className="text-xl text-[--main-color]">Categories</h3>
         <h2 className="font-extrabold text-4xl">Our Categories Menu</h2>

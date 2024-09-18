@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import aboutImg from "../assets/MAIA BAKERY 2.png";
+import aboutImg from "/images/MAIA BAKERY 2.png";
 
 const AboutContent = () => {
   return (

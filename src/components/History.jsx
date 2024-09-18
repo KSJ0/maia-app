@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import historyImg from "../assets/MAIA BAKERY 2.png";
+import historyImg from "/images/MAIA BAKERY 2.png";
 import { Link } from "react-router-dom";
 
 const History = () => {

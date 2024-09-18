@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/Maia Bakery Logo.png";
+import Logo from "/images/Maia Bakery Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMagnifyingGlass,
@@ -61,7 +61,7 @@ const Header = () => {
               className="hover:text-[--main-color]"
             />
           </a>
-          <div className="bx bx-menu" id="menu-icon">
+          <div className="bx bx-menu md:hidden" id="menu-icon">
             <a href="#">
               <FontAwesomeIcon
                 icon={faBars}
