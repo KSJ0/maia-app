@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
-const Card = ({ image, title, price }) => {
+const HomeMenuCard = ({ image, title, price }) => {
   return (
     <div className="flex flex-col text-center gap-5 p-10 cursor-pointer">
       <img src={image} alt={title} className="cus-img" />
@@ -12,4 +12,4 @@ const Card = ({ image, title, price }) => {
   );
 };
 
-export default Card;
+export default HomeMenuCard;
