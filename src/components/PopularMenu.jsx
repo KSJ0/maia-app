@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { popMenuData } from "../data/shopData";
-import HomeMenuCard from "./HomeMenuCard";
+import HomeMenuCard from "./cards/HomeMenuCard";
 
 const PopularMenu = () => {
   return (

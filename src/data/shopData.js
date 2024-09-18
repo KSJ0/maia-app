@@ -63,19 +63,19 @@ export const brownieMenu = [
     id: 1,
     title: "Peanut Butter Brownies",
     price: "Php 20.00",
-    image: "/images/cookies/cookie_belgianchocochip.jpg",
+    image: "/images/brownies/brownies 4.jpg",
   },
   {
     id: 2,
     title: "Mint Chocolate Brownies",
     price: "Php 20.00",
-    image: "/images/cookies/cookie_belgianchocochip.jpg",
+    image: "/images/brownies/brownies 5.jpg",
   },
   {
     id: 3,
     title: "Caramel Brownies",
     price: "Php 20.00",
-    image: "/images/cookies/cookie_belgianchocochip.jpg",
+    image: "/images/brownies/brownies 6.jpg",
   },
 ];
 
@@ -84,19 +84,19 @@ export const loafMenu = [
     id: 1,
     title: "Plain Moist Banana Loaf",
     price: "Php 120.00",
-    image: "/images/cookies/cookie_belgianchocochip.jpg",
+    image: "/images/loafBread/bananaloaf_plain_6in.jpg",
   },
   {
     id: 2,
     title: "Moist Banana Loaf w/Walnuts",
     price: "Php 150.00",
-    image: "/images/cookies/cookie_belgianchocochip.jpg",
+    image: "/images/loafBread/bloaf_ccwal.jpg",
   },
   {
     id: 3,
     title: "Double Chocolate Loaf",
     price: "Php 180.00",
-    image: "/images/cookies/cookie_belgianchocochip.jpg",
+    image: "/images/loafBread/bloaf_wal.jpg",
   },
 ];
 
@@ -105,18 +105,18 @@ export const cakesMenu = [
     id: 1,
     title: "Cookie Waffle Chocolate Cake",
     price: "Php 600.00",
-    image: "/images/cookies/cookie_belgianchocochip.jpg",
+    image: "/images/cakes/espresso cake1.jpg",
   },
   {
     id: 2,
     title: "Milky Caramel Buttered Cake",
     price: "Php 650.00",
-    image: "/images/cookies/cookie_belgianchocochip.jpg",
+    image: "/images/cakes/espresso cake2.jpg",
   },
   {
     id: 3,
     title: "Blueberry Cheesecake",
     price: "Php 500.00",
-    image: "/images/cookies/cookie_belgianchocochip.jpg",
+    image: "/images/cakes/blueberry cheesecake2.jpg",
   },
 ];
