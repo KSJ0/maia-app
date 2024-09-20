@@ -1,15 +1,17 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Header from "../components/Header";
-// import ContactContent from "../components/ContactContent";
-// import Footer from "../components/Footer";
+import ContactQuestion from "../components/ContactQuestion";
+import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col gap-5 text-[--text-color] md:gap-8">
+    <div className="flex flex-col gap-5 text-[--text-color] max-w-7xl mx-auto md:gap-8">
       <Header />
-      {/* <ContactContent /> */}
-      {/* <Footer /> */}
+      <ContactQuestion />
+      <ContactForm />
+      <Footer />
     </div>
   );
 };

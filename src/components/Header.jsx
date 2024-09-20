@@ -12,11 +12,21 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
+  // stored state for the bar icon status
   const [isOpen, setIsOpen] = useState(false);
 
+  // function for the bar icon
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  // stored state for the dark mode status
+  // const [darkMode, setDarkMode] = useState(false);
+
+  // function for dark mode
+  // const toggleDarkMode = () => {
+  //   setDarkMode(!darkMode);
+  // };
 
   return (
     <div>
@@ -51,29 +61,30 @@ const Header = () => {
         </ul>
 
         {/* MOBILE MENU */}
+        {/* bg-[#c78a855e] */}
         {isOpen && (
-          <div className="md:hidden bg-[#c78a855e] flex flex-col gap-10 text-center absolute ml-[-20px] mt-[109px] w-[320px] pt-[100px] h-screen">
+          <div className="md:hidden bg-[--bg-color] flex flex-col gap-10 text-center absolute ml-[-20px] mt-[109px] w-[320px] pt-[100px] h-screen">
             <Link
               to="/"
-              className="block text-black text-3xl hover:text-[--main-color]"
+              className="block text-black text-3xl font-semibold hover:text-[--main-color]"
             >
               Home
             </Link>
             <Link
               to="/shop"
-              className="block text-black text-3xl hover:text-[--main-color]"
+              className="block text-black text-3xl font-semibold hover:text-[--main-color]"
             >
               Shop
             </Link>
             <Link
               to="/about"
-              className="block text-black text-3xl hover:text-[--main-color]"
+              className="block text-black text-3xl font-semibold hover:text-[--main-color]"
             >
               About
             </Link>
             <Link
               to="/contact"
-              className="block text-black text-3xl hover:text-[--main-color]"
+              className="block text-black text-3xl font-semibold hover:text-[--main-color]"
             >
               Contact
             </Link>
@@ -111,13 +122,12 @@ const Header = () => {
           </div>
 
           {/* ----------darkmode---------- */}
-          {/* <div className="bx bx-moon" id="darkmode">
-            <a href="#">
-              <FontAwesomeIcon
-                icon={faMoon}
-                className="hover:text-[--main-color]"
-              />
-            </a>
+          {/* <div>
+            <FontAwesomeIcon
+              icon={faMoon}
+              className="hover:text-[--main-color]"
+              onClick={toggleDarkMode}
+            />
           </div> */}
         </div>
       </header>

@@ -10,7 +10,7 @@ import PopularMenu from "../components/PopularMenu";
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-5 text-[--text-color] md:gap-8">
+    <div className="flex flex-col gap-5 text-[--text-color] md:gap-8}">
       <Header />
       <Hero />
       <Categories />
