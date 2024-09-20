@@ -52,7 +52,7 @@ const Header = () => {
 
         {/* MOBILE MENU */}
         {isOpen && (
-          <div className="md:hidden bg-[#c78a855e] rounded-lg flex flex-col gap-10 text-center absolute mx-auto mt-[109px] w-[560px]">
+          <div className="md:hidden bg-[#c78a855e] flex flex-col gap-10 text-center absolute ml-[-20px] mt-[109px] w-[320px] pt-[100px] h-screen">
             <Link
               to="/"
               className="block text-black text-3xl hover:text-[--main-color]"

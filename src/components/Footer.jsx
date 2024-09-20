@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="grid gap-4 grid-cols-2 grid-rows-2 max-w-7xl m-auto md:flex md:flex-row p-5 md:gap-14 md:p-14">
+    <div className="grid gap-4 grid-cols-2 max-w-7xl m-auto md:flex md:flex-row p-5 md:gap-14 md:p-14">
       <div className="m-auto">
         <Link to="/">
           <img
